@@ -4,15 +4,6 @@ import ResourceIconArea from "./ResourceIconArea";
 
 const Name = props => <div className="card-name">{props.name}</div>;
 
-// const Icons = props => (
-//   <div className="card-cost">
-//     {props.name}:
-//     <div className="resourceIconArea">
-//       {iconSetToResources(props.cost, props.resourceIconFunctionality)}
-//     </div>
-//   </div>
-// )
-
 class Card extends Component {
   constructor(props) {
     super(props);
